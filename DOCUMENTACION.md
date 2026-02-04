@@ -57,3 +57,6 @@ Cliente: python3 client.py
 
 ## Pruebas realizadas
 Se realizaron pruebas ejecutando el servidor en los puertos 5050 y 5051 y conectando el cliente para enviar comandos. Se verificó que los procesos se listan, se inician y se detienen correctamente.
+
+## Conclusión
+El sistema cumple con la gestión remota de procesos usando sockets TCP/IP y demuestra conceptos de sistemas operativos distribuidos mediante múltiples servidores.
