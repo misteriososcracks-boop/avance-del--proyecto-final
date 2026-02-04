@@ -54,3 +54,6 @@ El servidor devuelve información de uso de CPU y memoria RAM en formato JSON, l
 Servidor (puerto 5050): python3 server.py 5050
 Servidor (puerto 5051): python3 server.py 5051
 Cliente: python3 client.py
+
+## Pruebas realizadas
+Se realizaron pruebas ejecutando el servidor en los puertos 5050 y 5051 y conectando el cliente para enviar comandos. Se verificó que los procesos se listan, se inician y se detienen correctamente.
