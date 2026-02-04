@@ -43,3 +43,6 @@ El cliente solicita la lista de procesos activos. El servidor responde con proce
 
 ## Comando START
 El cliente envía un comando del sistema y el servidor crea el proceso. En pruebas se usó: open . y python3 -c "import time; time.sleep(60)" y en ambos casos el servidor devolvió un PID.
+
+## Comando STOP
+El cliente envía un PID y el servidor detiene el proceso. Esto confirma que la gestión remota de procesos funciona correctamente.
