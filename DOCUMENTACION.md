@@ -21,3 +21,7 @@ El cliente envía comandos al servidor usando un menú interactivo.
 
 ## Sistemas distribuidos
 El servidor puede ejecutarse en dos puertos (5050 y 5051), simulando múltiples servidores disponibles para clientes, funcionando como una arquitectura distribuida básica.
+
+## Contribución de Javier Rivera Crespo
+
+Se realizó la revisión de la documentación, verificación de arquitectura cliente-servidor y validación del flujo de trabajo con ramas y pull request.
