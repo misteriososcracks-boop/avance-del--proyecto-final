@@ -46,3 +46,6 @@ El cliente envía un comando del sistema y el servidor crea el proceso. En prueb
 
 ## Comando STOP
 El cliente envía un PID y el servidor detiene el proceso. Esto confirma que la gestión remota de procesos funciona correctamente.
+
+## Comando INFO (CPU/RAM)
+El servidor devuelve información de uso de CPU y memoria RAM en formato JSON, lo cual permite monitorear recursos del sistema en tiempo real.
