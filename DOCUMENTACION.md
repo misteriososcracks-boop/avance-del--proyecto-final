@@ -26,3 +26,6 @@ El cliente envía comandos al servidor usando un menú interactivo.
 
 ## Sistemas distribuidos
 El servidor puede ejecutarse en dos puertos (5050 y 5051), simulando múltiples servidores disponibles para clientes, funcionando como una arquitectura distribuida básica.
+
+## Comunicación TCP/IP
+El servidor escucha por defecto en el puerto 5050. También puede ejecutarse en 5051 para simular múltiples servidores. El cliente se conecta usando sockets TCP a la IP y puerto del servidor.
