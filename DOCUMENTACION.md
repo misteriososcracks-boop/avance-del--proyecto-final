@@ -10,6 +10,11 @@ El sistema está formado por:
 
 Se comunican mediante mensajes JSON enviados por sockets TCP.
 
+## Arquitectura del sistema
+
+El sistema utiliza una arquitectura cliente-servidor basada en sockets TCP/IP.
+El cliente envía comandos al servidor y el servidor responde con información del sistema.
+
 ## Funcionalidades
 El servidor puede:
 - Listar procesos
