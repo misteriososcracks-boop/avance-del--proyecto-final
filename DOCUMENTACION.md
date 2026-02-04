@@ -49,3 +49,8 @@ El cliente envía un PID y el servidor detiene el proceso. Esto confirma que la 
 
 ## Comando INFO (CPU/RAM)
 El servidor devuelve información de uso de CPU y memoria RAM en formato JSON, lo cual permite monitorear recursos del sistema en tiempo real.
+
+## Cómo ejecutar
+Servidor (puerto 5050): python3 server.py 5050
+Servidor (puerto 5051): python3 server.py 5051
+Cliente: python3 client.py
