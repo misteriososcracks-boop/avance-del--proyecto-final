@@ -37,3 +37,6 @@ Ejemplos:
 - {"cmd":"START","command":"open ."}
 - {"cmd":"STOP","pid":1234}
 - {"cmd":"INFO"}
+
+## Comando LIST
+El cliente solicita la lista de procesos activos. El servidor responde con procesos del sistema (PID y nombre).
